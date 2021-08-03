@@ -1,5 +1,7 @@
+const db = require("./db")
 const Query = {
-    gretting : ()=>"hello world"
+    jobs : ()=>[]
 };
+
 
 module.exports = {Query};
