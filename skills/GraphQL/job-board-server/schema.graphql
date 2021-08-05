@@ -5,5 +5,11 @@ type Query{
 type Jobs{
     id:ID
     title: String
+    company: Company
+    description: String
+}
+type Company{
+    id: ID
+    title: String
     description: String
 }

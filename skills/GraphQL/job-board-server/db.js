@@ -3,6 +3,6 @@ const store = new DataStore("./data");
 
 module.exports = {
     companies :store.collection("companies"),
-    job :store.collection("jobs"),
+    jobs :store.collection("jobs"),
     users :store.collection("users"),
 }
